@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ring-fit-adventure-ocr"
+version = "0.1.0"
+description = ""
+authors = ["ujiuji1259 <suzzz428@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+google-api-python-client = "^2.119.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+fire = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+google-cloud-vision = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
